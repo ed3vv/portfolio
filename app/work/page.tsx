@@ -5,7 +5,7 @@ import ExpandableItem from '@/components/expandable-item';
 import { Footer } from '@/components/footer';
 import { useNavigationBounce } from '@/lib/useNavigationBounce';
 
-const workData = [
+const workData: { icon: string; title: string; subtitle: string; link?: string; githubLink?: string; date: string; description: string; tags: string[] }[] = [
   {
     icon: '/smashspeed.png',
     title: 'Founding Member, COO',
