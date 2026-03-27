@@ -19,18 +19,16 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
     if (typeof window !== 'undefined') {
       const savedTheme = localStorage.getItem('theme') as Theme | null;
-      return savedTheme || 'light';
+      return savedTheme || 'dark';
     }
-    return 'light';
+    return 'dark';
   });
 
   useEffect(() => {
     // Apply theme immediately on mount (without transition)
-    const savedTheme = localStorage.getItem('theme') as Theme | null;
-    if (savedTheme) {
-      setTheme(savedTheme);
-      document.documentElement.classList.toggle('dark', savedTheme === 'dark');
-    }
+    const savedTheme = (localStorage.getItem('theme') as Theme | null) || 'dark';
+    setTheme(savedTheme);
+    document.documentElement.classList.toggle('dark', savedTheme === 'dark');
   }, []);
 
   const toggleTheme = () => {

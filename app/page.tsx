@@ -37,55 +37,41 @@ export default function Home() {
         {/* Header */}
         <div className="text-sm sm:text-base leading-tight space-y-3">
           <div className="flex items-center justify-between">
-            <h1 className="underline underline-offset-[3px] font-extralight">◆ Diwen Huang, 16</h1>
+            <h1 className="underline underline-offset-[3px] font-extralight">◆ Eden Liang</h1>
             <div className="flex items-center gap-2 font-extralight">
-              {/* <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce' : ''}`}>Work</Link>
-              <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
               <Link href="/projects" className={`hover-underline-nudge ${shouldBounce('projects') ? 'nav-bounce-delayed' : ''}`}>Projects</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
-              {/* <Link href="/writing" className={`hover-underline-nudge ${shouldBounce('writing') ? 'nav-bounce-delayed' : ''}`}>Writing</Link>
-              <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed-more' : ''}`}>Resume</a>
             </div>
           </div>
 
           {/* Introduction Section */}
           <div className="py-1">
-            {/* REPLACE THIS WITH YOUR INTRODUCTION */}
-            hellooo! im diwen; im from vancouver and i like math and building stuff. i started coding in grade 9 (a pretty late start) and i think its nice. my favourite subjects are math and physics. bucket list of shows i want to watch: <br />
-            1. chernobyl <br />
-            2. the dark knight<br />
-            hopefully you find what you're looking for here!
+            hi! im eden, a 16 year old from vancouver who loves math, learning and building stuff. im interested in building things that are useful to others. outside of school and coding i like playing badminton and the piano. hope you find what you're looking for here!
           </div>
 
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
           <div>◆ Currently:</div>
-          <div>↳ Machine Learning Intern <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutch.jpeg" alt="Clutch" /><Label><a href="https://clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
-          <div className="ml-4">↳ Padel key point detection via heatmap-based deep learning networks</div>
-          <div>↳ Founding Engineer <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span></div>
-          <div className="ml-4">↳ backed by <span className="inline-flex items-center align-middle gap-1"><Logo src="/berkeley.png" alt="UC Berkeley" /><Label><a href="https://berkeley.edu" target="_blank" rel="noreferrer" className="hover-underline-nudge">UC Berkeley</a></Label></span> & <span className="inline-flex items-center align-middle gap-1"><Logo src="/virtuals.png" alt="Virtuals Protocol" /><Label><a href="https://virtuals.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Virtuals Protocol</a></Label></span></div>
-
-          <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
-
-          <div>◆ Previously:</div>
-          <div>↳ Software Engineer Intern <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutch.jpeg" alt="Clutch" /><Label><a href="https://clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
-          <div className="ml-4">↳ RAG-based Padel shot search engine</div>
+          <div>↳ Cofounder, COO — <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed AI</a></Label></span></div>
+          <div className="ml-4">↳ Real-time CV pipeline for badminton bird speed detection</div>
+          <div className="ml-4">↳ Fully functionable react native mobile app + yolov5 with 93% accuracy</div>
+          <div>↳ Developer — <span className="inline-flex items-center align-middle gap-1"><Logo src="/furiousfrogs.svg" alt="Furious Frogs" /><Label>Furious Frogs (FTC 26025)</Label></span></div>
+          <div className="ml-4">↳ Autonomous robot system — <span className="font-bold slight-italic">2nd in world out of 100,000+ teams, #1 in Canada</span></div>
+          <div>↳ Cofounder, CFO — <span className="inline-flex items-center align-middle gap-1"><Logo src="/stemsphere.png" alt="Stemsphere" /><Label><a href="https://stemsf.org" target="_blank" rel="noreferrer" className="hover-underline-nudge">Stemsphere</a></Label></span></div>
+          <div className="ml-4">↳ Non-profit promoting CS education, reaching 600+ students</div>
         </div>
 
         <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
-        {/* What I've Built */}
+        {/* Highlights */}
         <div className="text-sm sm:text-base leading-tight space-y-3">
           <div>◆ Highlights:</div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed</a></Label></span> — track badminton smash speed, <span className="font-bold slight-italic">45K+ users, 5M+ views, #1 App Store Taiwan</span></div>
-          <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy</span></div>
-          <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
-          <div>↳ Machine learning pipeline for shuttlecock tracking — read on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span></div>
-          {/* 
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/steve.png" alt="Freakysaur" /><Label><a href="https://haocuii.itch.io/steve-the-freakysaur" target="_blank" rel="noreferrer" className="hover-underline-nudge">Freakysaur</a></Label></span> — hands-free game, <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 250K+ impressions</span></div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><span className="text-sm sm:text-base">📖</span><Label><a href="/projects/faststart-series" className="hover-underline-nudge">Programming books</a></Label></span> –– <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development</div>
-          */}
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed</a></Label></span> — badminton speed tracker, <span className="font-bold slight-italic">45K+ users, 5M+ views</span></div>
+          <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy, built on CoreML</span></div>
+          <div className="ml-4">↳ <span className="font-bold slight-italic">Fully functionable react native mobile app</span></div>
+          <div>↳ Competitive programming on DMOJ — <span className="font-bold slight-italic">top 5,000 globally out of 200,000</span></div>
+          <div>↳ Hackathons — 2x winner</div>
         </div>
 
         <Footer />

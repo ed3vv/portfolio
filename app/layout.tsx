@@ -5,26 +5,26 @@ import dynamic from 'next/dynamic'
 import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '@/components/theme-provider'
 
-const SplashCursor = dynamic(
-  () => import('@/components/ui/splash-cursor').then((mod) => mod.SplashCursor),
+const ConstellationBg = dynamic(
+  () => import('@/components/ui/constellation-bg').then((mod) => mod.ConstellationBg),
   { ssr: false }
 )
 
 const inter = Inter({ subsets: ['latin'], weight: ['200','300'] })
 
 export const metadata: Metadata = {
-  title: "Diwen Huang",
-  description: 'Aspiring CS + AI major based in Vancouver',
+  title: "Eden Liang",
+  description: 'Builder and student based in Vancouver',
   icons: { icon: '/favicon.png' },
   openGraph: {
-    title: "Diwen Huang",
-    description: 'Aspiring CS + AI major based in Vancouver',
+    title: "Eden Liang",
+    description: 'Builder and student based in Vancouver',
     images: ['/puzzle.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Diwen Huang",
-    description: 'Aspiring CS + AI major based in Vancouver',
+    title: "Eden Liang",
+    description: 'Builder and student based in Vancouver',
     images: ['/puzzle.jpg'],
   },
 }
@@ -42,7 +42,9 @@ export default function RootLayout({
             __html: `
               (function() {
                 const theme = localStorage.getItem('theme');
-                if (theme === 'dark') {
+                if (theme === 'light') {
+                  document.documentElement.classList.remove('dark');
+                } else {
                   document.documentElement.classList.add('dark');
                 }
               })();
@@ -52,7 +54,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} antialiased`}>
         <ThemeProvider>
-          <SplashCursor />
+          <ConstellationBg />
           <div className="relative z-10 pointer-events-auto">
             {children}
           </div>

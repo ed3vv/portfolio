@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 interface ExpandableItemProps {
-  icon: string | React.ReactNode;
+  icon: string | React.ReactNode | null;
   title: string;
   subtitle: string;
   link?: string;
@@ -26,7 +26,7 @@ export default function ExpandableItem({
   tags,
 }: ExpandableItemProps) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const isImagePath = typeof icon === 'string' && (icon.includes('/') || icon.includes('.'));
+  const isImagePath = typeof icon === 'string' && icon != null && (icon.includes('/') || icon.includes('.'));
   const isInternalLink = link?.startsWith('/');
 
   const handleLinkClick = (e: React.MouseEvent) => {
@@ -105,7 +105,9 @@ export default function ExpandableItem({
             </svg>
           </div>
           <div className="flex-shrink-0 w-[40px] h-[40px] flex items-center justify-center">
-            {typeof icon === 'string' ? (
+            {icon == null ? (
+              <div className="w-[40px] h-[40px] rounded bg-neutral-100 dark:bg-neutral-800" />
+            ) : typeof icon === 'string' ? (
               isImagePath ? (
                 <Image
                   src={icon as string}
