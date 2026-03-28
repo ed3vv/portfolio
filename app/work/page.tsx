@@ -7,6 +7,15 @@ import { useNavigationBounce } from '@/lib/useNavigationBounce';
 
 const workData: { icon: string; title: string; subtitle: string; link?: string; githubLink?: string; date: string; description: string; tags: string[] }[] = [
   {
+    icon: '/magichour.png',
+    title: 'Incoming',
+    subtitle: 'Magic Hour • YC W24',
+    link: 'https://magichour.ai',
+    date: 'Incoming',
+    description: 'Incoming role at Magic Hour, a Y Combinator W24 company.',
+    tags: ['YC W24'],
+  },
+  {
     icon: '/smashspeed.png',
     title: 'Founding Member, COO',
     subtitle: 'Smashspeed AI • 42,000+ Users',
