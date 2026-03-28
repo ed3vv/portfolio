@@ -10,7 +10,7 @@ const projectData = [
     icon: '/smashspeed.png',
     title: 'Smashspeed AI',
     subtitle: 'Viral iOS & Android app to calculate badminton smash speed.',
-    link: '/projects/smashspeed-engine',
+    link: 'https://smashspeed.ca',
     githubLink: 'https://github.com/ed3vv',
     date: 'July 2025 – Present',
     description: 'Co-developed a real-time computer vision pipeline for iOS using YOLOv5, CoreML, and Kalman filtering to calculate badminton shuttle speeds with high precision on-device. Achieved 93% model accuracy by labeling 13,000+ images and training on 15,000+ images using NVIDIA A100 GPUs on Google Cloud. Built the fully functional React Native mobile app with 45,000+ downloads across iOS and Android, a viral social media campaign reaching 5M+ views, and a peak ranking of #1 in App Store Sports.',
@@ -20,6 +20,7 @@ const projectData = [
     icon: '/furiousfrogs.svg',
     title: 'Furious Frogs — FTC Autonomous System',
     subtitle: 'World-class robot built for FIRST Tech Challenge (FTC 26025)',
+    link: 'https://furiousfrogs.org',
     date: 'June 2024 – Present',
     description: 'Developed an autonomous system for the Furious Frogs FTC team (26025) balancing hardware, software, and computer vision. The system reached 2nd in the world out of 100,000+ teams at the World Championships, with the team ranked #1 in Canada for overall stats.',
     tags: ['Java', 'Computer Vision', 'Robotics', 'FTC', 'Autonomous Systems'],
@@ -35,6 +36,7 @@ const projectData = [
   {
     icon: '/slate.png',
     title: 'Slate',
+    link: 'https://slateplanner.vercel.app',
     subtitle: 'Minimalist personal planning and productivity app for students',
     date: '2025',
     description: 'Designed and built Slate, a minimalist productivity app tailored for students. Features include calendar integration, a focus session tracker, priority listing, and to-do lists. Built with a clean, distraction-free UI using Next.js, TypeScript, TailwindCSS, and React.',
@@ -43,6 +45,7 @@ const projectData = [
   {
     icon: '/dmoj.png',
     title: 'Competitive Programming',
+    link: 'https://dmoj.ca/user/astrangetomato',
     subtitle: 'Top 5,000 globally on DMOJ out of 200,000+ developers',
     date: '2022 – Present',
     description: '2+ years of competitive programming experience on DMOJ (Don Mills Online Judge), a modern online judge for algorithmic problems. Ranked in the top 5,000 globally out of over 200,000 developers. Focused on data structures, graph algorithms, dynamic programming, and combinatorics.',

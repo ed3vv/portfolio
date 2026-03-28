@@ -29,7 +29,7 @@ export function ConstellationBg() {
     canvas.height = height;
 
     const PARTICLE_COUNT = Math.min(85, Math.floor((width * height) / 11000));
-    const MAX_DIST = 130;
+    const MAX_DIST = 160;
     const CURSOR_RADIUS = 160;
 
     const particles: Particle[] = Array.from({ length: PARTICLE_COUNT }, () => ({
@@ -124,11 +124,6 @@ export function ConstellationBg() {
           }
         }
 
-        // Dot at cursor
-        ctx.beginPath();
-        ctx.fillStyle = `rgba(${color}, 0.25)`;
-        ctx.arc(mouseX, mouseY, 2, 0, Math.PI * 2);
-        ctx.fill();
       }
 
       // Draw dots
