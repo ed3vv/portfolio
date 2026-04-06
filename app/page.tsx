@@ -75,7 +75,9 @@ export default function Home() {
           <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — badminton speed tracker, <span className="font-bold slight-italic">45K+ users, 5M+ views</span></div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy, built on CoreML</span></div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">Fully functionable react native mobile app</span></div>
+          
           <div>↳ Competitive programming on <span className="inline-flex items-center align-middle gap-1"><Logo src="/dmoj.png" alt="DMOJ" /><Label><a href="https://dmoj.ca/user/astrangetomato" target="_blank" rel="noreferrer" className="hover-underline-nudge font-bold">DMOJ</a></Label></span> — <span className="font-bold slight-italic">top 5,000 globally out of 200,000</span></div>
+          <div>↳ National title in badminton! (doubles but shhh)</div>
         </div>
 
         <Footer />
