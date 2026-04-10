@@ -53,7 +53,8 @@ export default function Home() {
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
           <div>◆ Incoming:</div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/magichour.png" alt="Magic Hour" /><Label><a href="https://magichour.ai" target="_blank" rel="noreferrer" className="hover-underline-nudge">Magic Hour</a></Label></span> <span className="text-neutral-500 dark:text-neutral-400">(YC W24)</span></div>
+          <div>↳ Intern @  <span className="inline-flex items-center align-middle gap-1"><Logo src="/magichour.png" alt="Magic Hour" /><Label><a href="https://magichour.ai" target="_blank" rel="noreferrer" className="hover-underline-nudge">Magic Hour</a></Label></span> <span className="text-neutral-500 dark:text-neutral-400">(YC W24)</span></div>
+          <div>↳ Intern @  <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutchapp.png" alt="Clutch" /><Label><a href="https://www.clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
 
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
