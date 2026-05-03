@@ -62,8 +62,7 @@ export default function Home() {
           <div>↳ Cofounder, COO — <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed AI</a></Label></span></div>
           <div className="ml-4">↳ Real-time CV pipeline for badminton bird speed detection</div>
           <div className="ml-4">↳ Fully functionable react native mobile app + yolov5 with 93% accuracy</div>
-          <div>↳ Developer — <span className="inline-flex items-center align-middle gap-1"><Logo src="/furiousfrogs.svg" alt="Furious Frogs" /><Label><a href="https://furiousfrogs.org" target="_blank" rel="noreferrer" className="hover-underline-nudge">Furious Frogs (FTC 26025)</a></Label></span></div>
-          <div className="ml-4">↳ Autonomous robot system — <span className="font-bold slight-italic">2nd in world out of 100,000+ teams, #1 in Canada</span></div>
+          
           <div>↳ Cofounder, CFO — <span className="inline-flex items-center align-middle gap-1"><Logo src="/stemsphere.png" alt="Stemsphere" /><Label><a href="https://stemsf.org" target="_blank" rel="noreferrer" className="hover-underline-nudge">Stemsphere</a></Label></span></div>
           <div className="ml-4">↳ Non-profit promoting CS education, reaching 600+ students</div>
         </div>
@@ -76,9 +75,10 @@ export default function Home() {
           <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — badminton speed tracker, <span className="font-bold slight-italic">45K+ users, 5M+ views</span></div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy, built on CoreML</span></div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">Fully functionable react native mobile app</span></div>
-          
+          <div>↳ Developer — <span className="inline-flex items-center align-middle gap-1"><Logo src="/furiousfrogs.svg" alt="Furious Frogs" /><Label><a href="https://furiousfrogs.org" target="_blank" rel="noreferrer" className="hover-underline-nudge">Furious Frogs (FTC 26025)</a></Label></span></div>
+          <div className="ml-4">↳ Autonomous robot system — <span className="font-bold slight-italic">Qualified for world championships, #1 in Canada</span></div>
           <div>↳ Competitive programming on <span className="inline-flex items-center align-middle gap-1"><Logo src="/dmoj.png" alt="DMOJ" /><Label><a href="https://dmoj.ca/user/astrangetomato" target="_blank" rel="noreferrer" className="hover-underline-nudge font-bold">DMOJ</a></Label></span> — <span className="font-bold slight-italic">top 5,000 globally out of 200,000</span></div>
-          <div>↳ National title in badminton! (doubles but shhh)</div>
+          <div>↳ <a href="https://badmintoncanada.tournamentsoftware.com/sport/winners.aspx?id=57efbeb1-40d8-4b47-9e5d-1e9f2a5370c3" target="_blank" rel="noreferrer" className="hover-underline-nudge font-bold">National title</a> in badminton!</div>
         </div>
 
         <Footer />
