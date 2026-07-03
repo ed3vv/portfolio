@@ -49,16 +49,12 @@ export default function Home() {
           <div className="py-1">
             hi! im eden, a 16 year old from vancouver who loves math, learning and building stuff. im interested in building things that are useful to others. outside of school and coding i like playing badminton and the piano. hope you find what you're looking for here!
           </div>
-
-          <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
-
-          <div>◆ Incoming:</div>
-          <div>↳ Intern @  <span className="inline-flex items-center align-middle gap-1"><Logo src="/magichour.png" alt="Magic Hour" /><Label><a href="https://magichour.ai" target="_blank" rel="noreferrer" className="hover-underline-nudge">Magic Hour</a></Label></span> <span className="text-neutral-500 dark:text-neutral-400">(YC W24)</span></div>
-          <div>↳ Intern @  <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutchapp.png" alt="Clutch" /><Label><a href="https://www.clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
-
+          
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
           <div>◆ Currently:</div>
+          <div>↳ Intern @  <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutchapp.png" alt="Clutch" /><Label><a href="https://www.clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
+          <div>↳ Research @  <span className="inline-flex items-center align-middle gap-1"><Logo src="/algoverse.jpeg" alt="Algoverse AI" /><Label><a href="https://algoverseairesearch.org" target="_blank" rel="noreferrer" className="hover-underline-nudge">Algoverse AI</a></Label></span></div>
           <div>↳ Cofounder, COO — <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed AI</a></Label></span></div>
           <div className="ml-4">↳ Real-time CV pipeline for badminton bird speed detection</div>
           <div className="ml-4">↳ Fully functionable react native mobile app + yolov5 with 93% accuracy</div>
@@ -72,8 +68,8 @@ export default function Home() {
         {/* Highlights */}
         <div className="text-sm sm:text-base leading-tight space-y-3">
           <div>◆ Highlights:</div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — badminton speed tracker, <span className="font-bold slight-italic">45K+ users, 5M+ views</span></div>
-          <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy, built on CoreML</span></div>
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — badminton speed tracker, <span className="font-bold slight-italic">50K+ users, 5M+ views</span></div>
+          <div className="ml-4">↳ <span className="font-bold slight-italic">150K hand-annotated images → built with TrackNetV3</span></div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">Fully functionable react native mobile app</span></div>
           <div>↳ Developer — <span className="inline-flex items-center align-middle gap-1"><Logo src="/furiousfrogs.svg" alt="Furious Frogs" /><Label><a href="https://furiousfrogs.org" target="_blank" rel="noreferrer" className="hover-underline-nudge">Furious Frogs (FTC 26025)</a></Label></span></div>
           <div className="ml-4">↳ Autonomous robot system — <span className="font-bold slight-italic">Qualified for world championships, #1 in Canada</span></div>
